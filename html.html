@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResuMais: HTML</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="style-html.css">
+    <script src="script-index.js" defer></script>
+    <script src="script-html.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="botao-menu">☰</button>
+    <div id="menu">
+        <div id="elementos-menu">
+            <a href="index.html" class="itens">INICIO</a>
+            <a href="css.html" class="itens">CSS</a>
+            <a href="js.html" class="itens">JS</a>
+            <a href="django.html" class="itens">DJANGO</a>
+            <a href="python.html" class="itens">PYTHON</a>    
+        </div>
+    </div>
+    <header>
+        <h1><span id="titulo-salmao">Resu</span>Mais</h1>
+        <form action="" method="">
+            <input type="seach" name="buscar" placeholder="Pesquisar no blog" required id="barra-de-pesquisa" autocomplete="off">
+            <button type="button" id="botao-de-pesquisa">Buscar</button>
+        </form>
+    </header>
+    <main>
+        <div class="area-de-texto">
+            <p class="data">21 de março, 2025</p>
+            <h4>O que é HTML?</h4>
+            <p>linguagem de marcação padrão utilizada para criar páginas web. Ele define a estrutura do conteúdo na internet, usando uma série de "tags" ou "marcadores" para organizar e formatar textos, imagens, links, tabelas, formulários e outros elementos dentro de uma página.</p>
+        </div>
+
+        <div class="area-de-texto">
+            <p class="data">21 de março, 2025</p>
+            <h4>Principais Tags</h4>
+            <p><span id="tags">&lt;html&gt;&lt;/html&gt;:</span> Marca o início de um documento HTML</p>
+            <p><span id="tags">&lt;head&gt;&lt;/head&gt;:</span> Contém metadados sobre a página, como título, links de CSS e scripts</p>
+            <p><span id="tags">&lt;meta&gt;:</span> Fornece metadados como informações sobre o charset (conjunto de caracteres que define como os textos são representados e codificados em sistemas de computação.), autor da página, e configurações de visualização.</p>
+            <div id="div8">
+                <p class="l1">tag meta</p>
+                <pre class="l2"><code>
+ &lt;meta name="author" content="Nome do Autor"gt;
+ &lt;meta name="description" content="Descrição pag"&gt;
+ &lt;meta charset="UTF-8">&gt;
+                </code></pre>
+            </div>
+            <p><span id="tags">&lt;title&gt;&lt;title&gt;:</span> Define o título da página, que aparece na aba do navegador</p>
+            <p><span id="tags">&lt;body&gt;&lt;body&gt;:</span> contém o conteúdo visível da página, como textos, imagens e links.</p>
+            <p><span id="tags">&lt;h1&gt;&lt;/h1&gt;  &lt;h2&gt;&lt;/h2&gt; &lt;h3&gt;&lt;/h3&gt; &lt;h4&gt;&lt;/h4&gt; &lt;h5&gt;&lt;/h5&gt; &lt;h6&gt;&lt;/h6&gt;: </span> Definem os títulos e subtítulos, do mais importante (&lt;h1&gt;) ao menos importante (&lt;h6&gt;).</p>
+            <p><span id="tags">&lt;p&gt;&lt;/p&gt;:</span> Define um parágrafo.</p>
+            <p><span id="tags">&lt;a&gt;&lt;/a&gt;:</span> Define um link (hiperlink)</p>
+            <div id = div3>    
+                <p class="l1">tag a</p>
+                <pre class="l2"> <code>&lt;a href="https://www.exemplo.com"&gt; site &lt;/a&gt;</code></pre>
+            </div>
+            <p><span id="tags">&lt;img&gt;:</span> Insere uma imagem</p>
+            <div id="div1">
+                <p class="l1">tag img</p>
+                <pre class="l2"> <code>&lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;</code></pre>
+            </div>
+            <p><span id="tags">&lt;ul&gt; &lt;li&gt;: </span>Usados para listas não ordenadas ul ou ordenadas ol, com cada item de lista sendo definido pela tag li.</p>
+            <div id="div2">
+                <p class="l1">tag ul li</p>
+                <pre class="l2"><code>
+ &lt;ul&Gt;
+    &lt;li&Gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+ &lt;/ul&gt;
+                </code></pre>
+            </div>
+
+            <p><span id="tags">&lt;ol&gt; &lt;li&gt;: </span>Usados para listas não ordenadas ul ou ordenadas ol, com cada item de lista sendo definido pela tag li.</p>
+            <div id="div2">
+                <p class="l1">tag ol li</p>
+                <pre class="l2"><code>
+ &lt;ol&Gt;
+    &lt;li&Gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+ &lt;/ol&gt;
+                </code></pre>
+            </div>
+
+            <p><span id="tags">&lt;div&gt;&lt;/div&gt;:</span> Define uma divisão ou seção no conteúdo, usado para agrupar elementos.</p>
+            <p><span id="tags">&lt;span&gt;&lt;/span&gt;: </span> Define uma seção inline de conteúdo. É mais usado para aplicar estilos específicos a uma parte do texto, sem quebrar o fluxo.</p>
+            <p><span id="tags">&lt;form&gt;&lt;/form&gt;: </span> Define um formulário para entrada de dados, e dentro dele você pode ter campos de texto, botões, checkboxes, etc.</p>
+            <div id="div4">
+                <p class="l1">tag form</p>
+                <pre class="l2"><code>
+ &lt;form action="/processar" method="post"&Gt;
+    &lt;label for="name"&Gt;Nome: &lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+ &lt;/forms&gt;
+                </code></pre>
+            </div>
+            <p><span id="tags">&lt;input&gt;: </span>Define um campo de entrada, como um campo de texto, botão de rádio, caixa de seleção, etc.</p>
+            <div id="div5">
+                <p class="l1">tag input</p>
+                <pre class="l2"><code>
+ &lt;input type="text" placeholder="Digite seu nome"&Gt;
+ &lt;input type="checkbox" id="aceito" name="aceito"&gt;
+ &lt;label for="aceito"&gt;Aceito os termos&lt;/label&gt;
+                </code></pre>
+            </div>
+            <p><span id="tags">&lt;table&gt;&lt;tr&gt;&lt;td&gt;:</span> Define uma tabela, com tr para as linhas e td para as células. </p>
+            <div id="div6">
+                <p class="l1">tag input</p>
+                <pre class="l2"><code>
+&lt;table border="1"&Gt;
+    &lt;tr&Gt;
+        &lt;td&gt;Nome&lt;/td&gt;
+        &lt;td&gt;Nome&lt;/td&gt;
+    &lt;/tr&Gt;
+    &lt;tr&Gt;
+        &lt;td&gt;João&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+    &lt;/tr&Gt;
+&lt;/table&gt;
+                </code></pre>
+            </div>
+            <p><span id="tags">&lt;link&gt;: </span> Usado no head para vincular arquivos externos como folhas de estilo (CSS).</p>
+        <div id="div7">
+            <p class="l1">tag link</p>
+            <pre class="l2"><code>
+&lt;head&Gt;
+    &lt;link rel="stylesheet" href="styles.css"&Gt;
+&lt;/head&gt;
+            </code></pre>
+        </div>
+            <p><span id="tags">&lt;script&gt;&lt;/script&gt;: </span> Vincular um arquivo JavaScript a uma página HTML. É uma boa prática vincular no final do body, </p>
+            <div id="div9">
+                <p class="l1">tag script</p>
+                <pre class="l2"><code>
+&lt;body&Gt;
+    &lt;script src="js/script.js"&Gt;&lt;script&gt;
+&lt;/body&gt;
+                </code></pre>
+            </div>
+        
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

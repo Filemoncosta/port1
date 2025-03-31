@@ -1,0 +1,39 @@
+:root{
+    --body-color: #121214;
+    --detalhes1: #17171A;
+    --pesquisa: #202024;
+    --detalhes2: #E07B67;
+    --letra: #FFFFFF;
+}
+
+#tags{
+    font-weight: bold;
+    color: var(--detalhes2);
+}
+
+#div2{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.l1{
+    margin:0px;
+    background-color: var(--pesquisa);
+    padding: 2% 0;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.l2{
+    background-color: var(--body-color);
+    margin: 0px;
+    padding: 3% 0;
+    border-radius: 0px 0px 5px 5px;  
+}
+
